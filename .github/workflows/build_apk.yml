@@ -2,8 +2,6 @@ name: Build APK
 
 on:
   workflow_dispatch:  # فقط اجرای دستی — برای تست
-  push:
-    branches: [ main ]
 
 jobs:
   build:
